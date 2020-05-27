@@ -1,0 +1,22 @@
+body {
+	background: blue;
+	/* background: url(https://luizandreoli.com.br/wp-content/uploads/2019/01/https___blogs-images.forbes.com_scottmendelson_files_2018_11_GLASS-1-750x354.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+
+h1 {
+	color: #f400dd;
+	/* border: purple;
+    border-width: 10px;
+    border-style: solid; */
+	border: 2px solid purple;
+}
+
+h4 {
+	background-color: rgba(98, 133, 84, 0.9)
+}
+
+li {
+	color: rgba(128, 218, 93, .9);
+}

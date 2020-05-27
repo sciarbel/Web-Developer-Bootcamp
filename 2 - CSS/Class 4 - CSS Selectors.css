@@ -1,0 +1,13 @@
+li {
+	border: solid 2px red;
+}
+
+/* id selector */
+#special {
+	border: black solid 10px;
+}
+
+/* class selector */
+.type1 {
+	text-decoration: line-through;
+}

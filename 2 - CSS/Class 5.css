@@ -1,0 +1,33 @@
+/* Elements */
+li {}
+
+/* class */
+.hello {}
+
+/* id */
+#name {}
+
+/* Star - every element*/
+* {
+	border: 1px solid lightgrey;
+}
+
+/* Descendant Selector - everything inside an element*/
+ul li a {
+	color: red;
+}
+
+/* Adjascent Selector */
+h4+ul {
+	color: blue;
+}
+
+/* Attribute Selector */
+a[href="http://www.google.com.br"] {
+	background: rgb(24, 231, 69);
+}
+
+/* nth of type */
+li:nth-of-type(1) {
+	background: purple;
+}

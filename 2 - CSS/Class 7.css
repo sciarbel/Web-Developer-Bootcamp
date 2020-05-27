@@ -1,0 +1,46 @@
+/* Font-family */
+p {
+	font-family: Arial;
+}
+
+h1 {
+	font-family: Georgia;
+}
+
+/* Font-size */
+h1 {
+	font-size: 89px;
+}
+
+span {
+	font-size: 2.0em;
+	/* Dinamico, relativo ao tamanho do elemento-parente */
+}
+
+/* Font-weight */
+p {
+	font-weight: bold;
+}
+
+/* Line-height */
+p {
+	line-height: 1.5;
+}
+
+/* Text-align */
+h1 {
+	text-align: right;
+}
+
+p {
+	text-align: justify;
+}
+
+/* Text-decoration */
+p {
+	text-decoration: underline;
+}
+
+h1 {
+	text-decoration: line-through;
+}
