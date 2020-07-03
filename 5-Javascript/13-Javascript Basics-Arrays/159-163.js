@@ -1,6 +1,7 @@
 // Class 159  
 var todos = [];
-input = prompt("What would you like to do?");
+
+var input = prompt("What would you like to do?");
 while (input !== "quit") {
   if (input === "list") {
     listTodos();
@@ -15,6 +16,7 @@ console.log("OK, exit list");
 
 
 function listTodos() {
+  // todo, index: placeholders. The first gives the array item, and the second gives the index.
   todos.forEach(function (todo, index) {
     console.log(index + ": " + todo);
   });
@@ -28,6 +30,7 @@ function newTodo() {
 
 function deleteTodo() {
   var index = prompt("Which action do you want to delete? Type index");
+  // splice: 1st placeholder gives the position, and the second, how many itens after.
   todos.splice(index, 1);
   console.log("Todo Deleted");
 }
