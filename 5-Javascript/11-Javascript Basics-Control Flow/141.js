@@ -1,25 +1,30 @@
-console.log("\n ex 1 \n ");
-for (var n = -10; n <= 19; n++) {
-  console.log(n);
+// Ex 1
+for (var i = -10; i <= 19; i++) {
+  console.log(i);
 }
 
-console.log("\n ex 2 \n ");
-for (var n = 10; n <= 40; n++) {
-  if (n % 2 === 0) {
-    console.log(n);
+// Ex 2
+for (var i = 10; i <= 40; i++) {
+  if (i % 2 === 0) {
+    console.log(i);
   }
 }
 
-console.log("\n ex 3 \n ");
-for (var x = 300; x <= 333; x++) {
-  if (x % 2 !== 0) {
-    console.log(x);
+// Ex 3
+for (var i = 300; i <= 333; i++) {
+  if (i % 2 !== 0) {
+    console.log(i);
   }
 }
 
-console.log("\n ex 4 \n ");
-for (var n = 5; n < 50; n++) {
-  if (n % 3 === 0 && n % 5 === 0) {
-    console.log(n);
+// Ex 4
+for (var i = 5; i <= 50; i++) {
+  if (i % 3 === 0 && i % 5 === 0) {
+    console.log(i);
   }
+}
+
+var str = "hello there";
+for (var n = 0; n < str.length; n++) {
+  console.log(str[n]);
 }
