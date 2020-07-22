@@ -14,3 +14,7 @@ function doSomething() {
   var x = "hi there";
   console.log(x);
 }
+
+doSomething();
+
+x;
