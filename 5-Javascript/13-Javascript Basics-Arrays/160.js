@@ -9,12 +9,23 @@ for (var i = 0; i < colors.length; i++) {
 // Ex 2 - forEach()
 // array.forEach(anonymouysFunction(placeholder) {functionArgument});
 // - pass an anonymous function for each array element
-  
-colors.forEach(function(color) {
+// there are 2 methods:
+/*[1,2,3].forEach(function(element, index, array) {
+  console.log(element, index, array);
+});
+Or you can pass in a pre-written, named function.
+
+function logNums(element, index, array) {
+  console.log(element, index, array);
+} 
+[1, 2, 3].forEach(logNums);*/
+
+
+colors.forEach(function (color) {
   console.log(color);
 });
 
-colors.forEach(function(arrItem) {
+colors.forEach(function (arrItem) {
   console.log(`test ${arrItem}`);
 });
 
