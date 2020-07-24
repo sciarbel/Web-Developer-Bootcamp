@@ -8,7 +8,6 @@ var colors = ["red", "orange", "yellow", "green"];
 // })
 
 // Iterates through each item inside Array, not the index.
-
 for (var i = 0; i < numbers.length; i++) {
   if (numbers[i] % 3 === 0) {
     console.log(numbers[i]);
